@@ -1,0 +1,230 @@
+.anhlaptop{
+    width: 1519px;
+    height: 200px;
+}
+.quick-link{
+    width: 1519px;
+    height: 150px;
+    background-color:#080312;
+color:#333333;
+display:flex;
+font-size:14px;
+justify-content:center;
+line-height:18px;
+padding:15px 0px;
+}
+.quick-link-list{
+    width: 1109px;
+    height: 88px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.anhlaptop1{
+    width: 93px;
+    height: 25px;
+}
+.quick-link-item{
+    align-items:center;
+background-color:#ffffff;
+border-radius:34px;
+color:#288ad6;
+display:flex;
+font-family:Arial;
+font-size:14px;
+justify-content:center;
+line-height:18px;
+padding:0px 14px;
+width: 121px;
+height: 34px;
+margin-right: 10px;
+margin-top: 10px;
+}
+
+/* Menu-Top */
+.Menu-top{
+    width: 1519px;
+    height: 120px;
+    background-color:#222222;
+    color:#333333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.nav-item{
+    width: 150px;
+    height: 79px;
+}
+.nav-item-icon{
+    width: 56px;
+    height: 56px;
+    font-size: 24px;
+background-color:#d4d3c7;
+border-radius:50%;
+color:#ffffff;
+display:flex;
+justify-content:center;
+line-height:17px;
+margin-top: 10px;
+text-align:center;
+}
+.nav-item-icon-list{
+color: red;
+line-height:30px;
+text-align:center;
+width: 34px;
+height: 34px;
+margin-top: 8px;
+}
+.nav-item-text{
+    color:#ffffff;
+font-family:Arial;
+font-size:14px;
+margin-top: 10px;
+text-align:center;
+width: 150px;
+height: 17px;
+margin-left: -45px;
+}
+
+/* banner hinh anh */
+/* .banner-img{
+   display: flex;
+   width: 1519px;
+
+   margin-top: 10px;
+  
+  
+}
+.banner-img-1{
+    width: 595px;
+    height: 149px;
+    
+}
+.banner-img-2{
+    width: 595px;
+    height: 149px;
+    margin-left: 5px;
+    
+} */
+
+/* Laptop-Gaming */
+
+.Gaming-block{
+background-color:#25304b;
+color:#333333;
+width: 1519px;
+height: 1362px;
+justify-content: center;
+text-align: center;
+}
+.abcd{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1220px;
+    margin-left: 155px;
+
+}
+.Gaming-block-img{
+    width: 1200px;
+    height: 200px;
+}
+.Gaming-product-list{
+  
+    
+}
+
+.Gaming-product-list-item{
+    width: 236px;
+    height: 535px;
+    background-color:#ffffff;
+    border-color:#f1f1f1;
+    margin-left: 5px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+.Gaming-product-list-item-img{
+    width: 209px;
+    height: 139px;
+    margin-top: 10px;
+}
+
+.Gaming-product-list-item-text{
+    color:#333333;
+font-family:Arial;
+font-size:13px;
+line-height:20px;
+text-decoration: none;
+margin-top: 10px;
+flex-wrap: wrap;
+
+}
+.Gaming-product-list-item-compare{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    justify-items: center;
+}
+.Gaming-product-list-item-compare_price{
+    text-align: left;
+    margin-left: 20px;
+    display: flex;
+    margin-top: 10px;
+}
+.item-compare{
+    border-color:#e0e0e0;
+border-radius:2px;
+border-style:solid;
+border-width:1px;
+color:#333333;
+display:inline-block;
+font-size:12px; 
+line-height:12px;
+margin:0px 5px 5px 0px;
+padding:4px 5px;
+margin-left: 10px;
+}
+.item-price-old{
+    color:#333333;
+font-family:Arial;
+font-size:13px;
+text-decoration:line-through;
+line-height:17px;
+}
+.item-price-discount{
+    color:#288ad6;
+font-size:14px;
+line-height: 14px;
+margin-left: 5px;
+}
+.price{
+    color: #25304b;
+display:inline-block;
+font-weight:700;
+line-height:16px;
+margin:0px 0px 5px;
+margin-left: -130px;
+
+}
+.price-gift{
+    color:#333333;
+font-family:Arial;
+font-size:12px;
+line-height:18px;
+margin-left: -130px;
+}
+.details{
+color:#222222;
+font-size:14px;
+line-height:22px;
+}
+.item-details{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.icon{
+    text-align: left;
+    margin-left: 10px;
+}
+
+

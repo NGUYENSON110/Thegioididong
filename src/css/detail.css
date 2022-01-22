@@ -1,0 +1,350 @@
+/* Div bao trùm all  */
+.detail {
+  width: 1200px;
+  height: 6588px;
+}
+/* thẻ điện thoại - Samsung - iphone - oppo */
+.breadcrumb {
+  width: 1200px;
+  height: 33px;
+}
+.breadcrumb-ul {
+  display: flex;
+  list-style-type: none;
+}
+.breadcrumb-li {
+  margin-top: 5px;
+  margin-left: 115px;
+  font-size: 12px;
+  color: cornflowerblue;
+}
+.breadcrumb-lii {
+  margin-top: 5px;
+  margin-left: 15px;
+  font-size: 12px;
+  color: cornflowerblue;
+}
+.BsFillSkipEndFill {
+  margin-top: 6px;
+  margin-left: 10px;
+  color: #333333;
+}
+/* Hiển thị tên sản phẩm */
+h1 {
+  width: 397px;
+  height: 18px;
+  color: #333333;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-left: 145px;
+}
+.Bordercol {
+  width: 1200px;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin-left: 145px;
+}
+
+/* Chi tiết sản phẩm - hình ảnh - thông số */
+.box-main {
+  width: 1200px;
+  height: 6690px;
+  margin-left: 115px;
+  display: flex;
+}
+.box-main-img {
+  width: 710px;
+  height: 397px;
+  margin-top: 10px;
+  margin-left: 27px;
+}
+/* Box left */
+.Box-left {
+  width: 710px;
+  height: 2554px;
+}
+.box-tab {
+  width: 710px;
+  height: 91px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.box-tab-ul {
+  display: flex;
+}
+.box-tab-img {
+  width: 41px;
+  height: 41px;
+}
+.box-tab-li {
+  align-items: center;
+  border-color: #e0e0e0;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  color: #333333;
+  display: flex;
+  font-size: 0px;
+  justify-content: center;
+  line-height: 18px;
+  padding: 4px;
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  margin-left: 10px;
+}
+.box-right {
+  width: 460px;
+  height: 1755px;
+  margin-left: 73px;
+}
+.box-desk {
+  display: flex;
+  margin-top: 10px;
+}
+.box-desk-item {
+  border-color: #e0e0e0;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  color: #2f80ed;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 13px;
+  line-height: 36px;
+  margin: 0px 2px 5px 0px;
+  padding: 0px 15px;
+  text-align: center;
+  margin-left: 3px;
+}
+.box-price {
+  width: 460px;
+  height: 16px;
+  margin-top: 10px;
+}
+.box-price-item {
+  color: #333333;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0px 0px 10px;
+  margin-left: 5px;
+}
+.box-price-itemmm {
+  color: #2f80ed;
+}
+.box-price-sale {
+  color: #d0021c;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-left: 5px;
+}
+/* Khuyen mai */
+.Khuyenmai {
+  width: 460px;
+  height: 360px;
+  margin-top: 50px;
+}
+.pr-top {
+  width: 458px;
+  height: 53px;
+  background-color: #f6f6f6;
+  color: #333333;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 8px 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.pr-top-text {
+  color: #333333;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 700;
+}
+.pr-top-textt {
+  margin-top: 5px;
+  color: #666666;
+  font-size: 12px;
+}
+.pr-item {
+  width: 458px;
+  height: 300px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+.pr-box {
+  width: 438px;
+  margin-left: 10px;
+  height: 40px;
+  display: flex;
+  
+}
+.pr-number {
+  width: 16px;
+  height: 16px;
+  background-color: #4a90e2;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 16px;
+  margin: 8px 0px 0px;
+  text-align: center;
+  margin-right: 10px;
+}
+.pr-number-2{
+  width: 31px;
+  height: 16px;
+  background-color: #4a90e2;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 16px;
+  margin: 8px 0px 0px;
+  text-align: center;
+  margin-right: 10px;
+}
+.pr-box-1{
+     width: 438px;
+  margin-left: 10px;
+  height: 80px;
+  display: flex;
+}
+
+.pr-text {
+  position: relative;
+  top: 5px;
+  font-size: 14px;
+  
+}
+/* Mua Ngay */
+.btn-buynow {
+  background-color: #fb6e2e;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 0px 0px 8px;
+  padding: 14px 0px;
+  text-align: center;
+  justify-items: center;
+  width: 460px;
+  height: 46px; 
+}
+.btn-tragop {
+  width: 460px;
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-tragop-taichinh {
+  width: 225px;
+  height: 46px;
+  background-color: #2f80ed;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 7px 0px;
+  text-align: center;
+  justify-items: center;
+  margin-right: 8px;
+}
+.btn-tragop-taichinh-1{
+ 
+  width: 225px;
+  height: 46px;
+  background-color: #2f80ed;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 7px 0px;
+  text-align: center;
+  justify-items: center;
+}
+/* Cau hinh dien thoai */
+.parameter {
+  width: 460px;
+  height: 483px;
+  margin-top: 50px;
+}
+.parameter-title {
+  color: #333333;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  margin: 15px 0px 0px;
+}
+.parameter-ul {
+  list-style: none;
+}
+.parameter-lii {
+  margin-left: -30px;
+  width: 460px;
+  height: 56px;
+  background-color: #f5f5f5;
+}
+.parameter-li {
+  margin-left: -30px;
+  width: 460px;
+  height: 56px;
+}
+.lileft {
+  width: 140px;
+  height: 18px;
+  color: #333333;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 18px;
+}
+.liright {
+  width: 300px;
+  height: 36px;
+  color: #333333;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0px 5px 0px 25px;
+}
+
+/* POlicy */
+
+.policy-li {
+  width: 335px;
+  height: 65px;
+}
+.policy-ul {
+  width: 710px;
+  height: 129px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.policy-icon {
+  margin-right: 5px;
+  color: cornflowerblue;
+}
+.policy-text {
+  color: #333333;
+  font-family: Arial;
+  font-size: 14px;
+  width: 300px;
+  height: 40px;
+  padding: 0px 0px 0px 5px;
+  text-align: left;
+}
+.banner-img {
+  width: 710px;
+  height: 533px;
+  margin-left: 10px;
+}

@@ -1,0 +1,478 @@
+/* Header Top */
+*{
+    box-sizing: border-box;
+}
+.Header_top{
+    background-color: black;
+    font-size: 14px;
+    color: #FFF;
+    font-family:Arial;
+    width: 1519px;
+    height: 40px;
+    
+}
+.Header_top_all{
+    width: 1200px;
+    height: 40px;
+    display: flex;
+    margin-left: 150px;
+}
+.Header_top-img{
+    width: 400px;
+    height: 60px;
+    color: #FFF;
+}
+.Header_top_imgg{
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.Header_top_address{
+    width: 132px;
+    height: 30px;
+    flex-wrap: wrap;
+    margin-right: 15px;
+}
+.Header_top_address_item{
+color:#ffffff;
+font-family:Arial;
+font-size:11px;
+line-height:15px;
+margin:0px 15px 0px 0px;
+padding:0px 0px 0px 5px;
+text-decoration: none;
+}
+.Header_top_address_itemm{
+    color: yellow;
+    padding: 5px;
+}
+.Header_top_search{
+    margin-right: 15px;
+    
+}
+.Header_top_input{
+    width: 222px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.Header_top_cart{
+ width: 100px;
+ height: 30px;
+border-color:#8f8f8f;
+border-radius:4px;
+border : solid;
+border-width:1px;
+color:#ffffff;
+font-family:Arial;
+font-size:12px;
+margin:0px 0px 0px 10px;
+padding:5px 8px;
+margin-top: 5px;
+}
+.Header_top_cart_item{
+    margin-left: 5px;
+}
+.Header_top_carttt{
+    color: #ffffff;
+}
+.Header_top_history{
+    width: 55px;
+    height: 30px;
+    margin-left: 20px;
+    color:#ffffff;
+font-family:Arial;
+font-size:12px;
+text-decoration: none;
+text-align:center;
+margin-top: 3px;
+}
+.Header_top_history_item{
+color: #ffffff;
+text-decoration: none;
+}
+.Header_top_clear{
+    width: 100px;
+    height: 30px;
+    margin-left: 200px;
+}
+.Header_top_dangnhap{
+    width: 100px;
+    height: 40px;
+    align-items:center;
+color:#333333;
+display:flex;
+font-size:12px;
+justify-content:center;
+padding:0px 15px;
+text-align:center;
+}
+.Header_top_dangnhap_item{
+    text-decoration: none;
+    color: #ffffff;
+}
+.Header_top_bordercol{
+    width: 1px;
+    height: 40px;
+    background-color:#232323;
+}
+
+/* HomeBanner */
+.homebanner{
+    display: flex;
+    justify-content: center;
+
+}
+.homebanner_slider{
+    width: 840px;
+    height: 379px;
+    margin-top: 30px;
+    margin-left: -12px;
+}
+.preorder{
+    margin-top: 30px;
+    padding: 0px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 360px;
+    height: 379px; 
+}
+.preorder_img{
+    border-radius: 10px;
+    margin: 0 5px;
+}
+.preorder_img1{
+   
+   border-radius: 10px;
+}
+.preorder_img2{
+    margin: 0 5px;
+   border-radius: 10px;
+}
+.preorder_img3{
+    border-radius: 10px;
+}
+
+
+
+
+/* Header Main */
+.Header_main{
+    background-color:#fed100;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.Header_main_a{
+    align-items: center;
+    display:flex;
+    font-family:Arial;
+    font-size:17px;
+    padding:0px 9px;
+    text-decoration: none;
+    color:#333333;
+    line-height: 40px;
+}
+.Header_main_text{
+  font-size: 14px;
+  padding: 0 6px;
+}
+
+/* Banner */
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.banner_img{
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Banner sale 12/12 */
+/* Dien thoai noi bat */
+.box-commom{
+    color:#333333;
+font-size:14px;
+line-height:18px;
+margin:0px 0px 30px;
+}
+.box-commom_top{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.box-commom_tittle{
+    color:#333333;
+     font-family: Arial;
+    margin-left: 153px;
+   
+}
+.box-commom_item{
+    border-color:#e0e0e0;
+    border-radius:16px;
+    border-style:solid;
+    border-width:1px;
+    color:#333333;
+    display:inline-block;
+    font-family:Arial;
+    font-size:13px;
+    line-height:10px;
+    padding:10px 11px;
+    text-align:right;
+    margin: 0px 5px;
+    text-decoration: none;
+}
+
+/*  */
+.list{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    /* box-shadow:#000000 0px 1px 1px 1px; */
+    border-style: groove;
+    color:#333333;
+    font-size:14px;
+    line-height:18px;
+    padding:10px 15px;
+    width: 240px;
+    height: 403px;
+    margin: 0px 3px;
+}
+.item_name{
+color:#288ad6;
+display:-webkit-box;
+font-family:Arial;
+font-size:18px;
+line-height:20px;
+margin:0px 0px 5px;
+margin-top: 10px;
+flex-wrap: wrap;
+
+}
+.item_price{
+color:#222222;
+font-weight:700;
+line-height:18px;
+margin:0px 0px 5px;
+margin-top: 10px;
+}
+.item_gift{
+    color:#333333;
+font-family:Arial;
+font-size:13px;
+line-height:18px;
+margin:0px 0px 5px;
+margin-top: 10px;
+}
+
+/* Icon */
+.icon{
+    color: #ffe66b;
+    
+}
+
+/* Laptop */
+.Laptop{
+    margin-top: 50px;
+}
+
+
+
+
+/* Chuyen Trang Thương Hiệu */
+.title_layout{
+    width: 1200px;
+    height: 16px;
+    display: flex;
+    margin-left: 153px;
+    margin-top: 50px;
+}
+.trademark{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.trademark_img{
+    border-radius: 5px;
+    margin: 0px 10px 0px 5px
+}
+
+/* 24h Công nghệ */
+.CN{
+    width: 1200px;
+    display: flex;
+}
+.col1{
+    width: 789px;
+    height: 19px;
+}
+.ttl_main{
+    color:#333333;
+    font-family: Arial;
+    margin-left: 153px;
+    display: flex;
+    margin-top: 30px;
+}
+.ttl_main_a{
+    margin-left: 10px;
+}
+
+.col_img{
+    margin-top: 25px;
+    border-radius: 4px;
+}
+.col1_title{
+
+    color:#333333;
+    font-family:Arial;
+font-size:18px;
+font-weight:700;
+line-height:27px;
+margin:10px 0px 0px;
+}
+.col1_big{
+    width: 481px;
+    height: 81px;
+    margin-left: 143px;
+    display: flex;
+}
+
+.col1_simple{
+    width: 298px;
+    height: 400px;
+    
+}
+.coi1_simple_list{
+    margin-top: 20px;
+    display: flex;
+}
+.coi1_simple_list_item{
+    display: flex;
+}
+.coi1_simple_img{
+    border-radius: 4px;
+    margin : 5px;
+}
+.spl-item-title{
+color:#288ad6;
+font-family:Arial;
+font-size:12px;
+line-height:17px;
+width: 168px;
+height: 51px;
+}
+/* zingmp3 */
+.col2{
+    width: 396px;
+    height: 429px;
+}
+.title_layout{
+color:#333333;
+display:inline-block;
+font-family:Arial;
+font-weight:700;
+line-height:16px;
+margin-left: 180px;
+display: flex;
+margin-top: 35px;
+}
+.col2_image{
+    margin-top: 46px;
+    margin-left: 183px;
+    border-radius: 4px;
+}
+.col2_image_box{
+    margin-top: 10px;
+    margin-left: 183px;
+    border-radius: 4px;
+}
+.col2_text{
+    display: flex;
+}
+.col2_game_tittle{
+    width: 326px;
+    height: 21px;
+    font-family:Arial;
+    font-size:14px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.col2_box-main{
+    width: 336px;
+    height: 60px;
+    display: flex;
+}
+.col2_game_item{
+    display: flex;
+    margin-top: -10px;
+}
+.col2_game_item_free{
+background-color:#07a358;
+border-radius:4px;
+color:#ffffff;
+display:inline-block;
+font-size:12px;
+font-weight:700;
+width: 65px;
+text-align: center;
+height: 20px;
+padding:0px 4px;
+}
+.col2_game_item_video{
+    color:#333333;
+display:inline-block;
+font-family:Arial;
+font-size:13px;
+line-height:16px;
+margin-left: 5px;
+}
+.col2_game-box-list{
+    width: 396px;
+    height: 46px;
+}
+.col2_game-box-list-item{
+color:#2f80ed;
+font-family:Arial;
+font-size:12px;
+line-height:18px;
+margin:10px 0px 0px;
+padding:0px 0px 0px 15px;
+margin-left: 170px;
+width: 396px;
+}
+/* End */
+.clearfix-footer__top{
+    margin-top: 120px;
+    display: flex;
+}
+.footer_col{
+    width: 300px;
+    height: 155px;
+    margin-left: 110px;
+    font-size: 14px;
+}
+.footer_ul{
+list-style: none;
+color:#333333;
+display:list-item;
+font-family:Arial;
+font-size:14px;
+}
+.footer_a{
+    text-decoration: none;
+}
+
+
+/* đường thẳng */
+.line{
+    margin-top: 100px;
+    width: 1519px;
+border-color:#e2e2e2;
+border-style:solid none none;
+border-width:1px 0px 0px;
+
+}
