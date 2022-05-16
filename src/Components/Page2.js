@@ -71,7 +71,7 @@ function Page2() {
       
         {/* Banner hình ảnh */}
 
-        {/* <div className="section">
+        <div className="section">
             <div className="section_img1">
                  <img src={banner} width="800" height="200" className="section_img5"/>
             </div>
@@ -81,11 +81,11 @@ function Page2() {
                 <img src={samsung1} width="390" height="95" className="section_img4"/>       
             </div>
 
-        </div> */}
+        </div>
 
         {/* /* UL LI LIST DANH SACH */ }
 
-        {/* <div className="box-filter">
+        <div className="box-filter">
             <div >
                 <ul className="box-filter_ul">
                     <li className="box-filter_li"> <span> <BsFillBrushFill/> Bộ Lọc</span></li>
@@ -105,12 +105,12 @@ function Page2() {
                     <li className="box-filter_li"><span>Iphone Xr</span></li>
                 </ul>
             </div>
-        </div> */}
+        </div>
 
 
         {/* UL LI LIST DANH SÁCH HÃNG ĐIỆN THOẠI */}
 
-        {/* <div className="filter-menu">
+        <div className="filter-menu">
                 <div className="filter-menu-list">
                 <img src={logoiphone} width="120" height="36" className="section_img3" className="filter-menu-item"/>
                 <Link to="/Samsung"><img src={logoisamsung} width="120" height="36" className="section_img3" className="filter-menu-item"/></Link>                    
@@ -124,7 +124,7 @@ function Page2() {
                 <img src={logomasstel} width="120" height="36" className="section_img3" className="filter-menu-item"/>
                 <img src={logoenergizer} width="120" height="36" className="section_img3" className="filter-menu-item"/>    
                  </div>   
-        </div> */}
+        </div>
 
                 <Pagination className="Pagination">
                         <Pagination.Item><Link to="/Page1">{1}</Link></Pagination.Item>
@@ -136,7 +136,7 @@ function Page2() {
 
         {/* Menu tích giảm giá */}
 
-        {/* <div>
+        <div>
             <div className="clearfix">
                 <ul className="clearfix-ul">
                     <li className="clearfix-li"><span className="clearfix-text-item" ><b>151 ĐIỆN THOẠI</b></span></li>
@@ -147,7 +147,7 @@ function Page2() {
                     <li className="clearfix-li"><span className="clearfix-text">Sắp xếp nổi bật</span></li>
                 </ul>
             </div>
-        </div> */}
+        </div>
 
          {/* List sản phẩm */}
                

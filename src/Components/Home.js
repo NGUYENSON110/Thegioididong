@@ -38,6 +38,10 @@ import axios from "axios";
 import Detail from "./detail";
 import catChuoi from "../Function/catChuoi";
 import Giamgia from "./Giamgia";
+import { Carousel } from 'react-bootstrap'
+// import {actFetchProductsRequest,AddCart} from './actions'
+
+import { connect } from "react-redux";
 
 import {
   BsFillCartFill,
@@ -53,13 +57,10 @@ import {
   BsPlayFill,
   BsZoomIn,
 } from "react-icons/bs";
-import {} from 'react-bootstrap';
+import {} from "react-bootstrap";
 import Page2 from "./Page2";
 
 function Home() {
-
-
-
   // const [searchData, setsearchData] = useState({});
 
   // const handleSearch = () => {
@@ -72,24 +73,20 @@ function Home() {
   //     data: formData,
   //   }).then((res) => setsearchData(res.data.rows));
   // };
-
-
-
   
-  const [danhMuc, setdanhMuc] = useState([])
+
+ 
+
+  const [danhMuc, setdanhMuc] = useState([]);
   const [DTNB, setDTNB] = useState([]);
   const [LaptopNB, setLaptopNB] = useState([]);
   const [PKNB, setPKNB] = useState([]);
   // const API = process.env.REACT_APP_API_URL;
 
-
   useEffect(() => {
     const getDM = async () => {
       try {
-        const res = await axios.get(
-          "http://localhost:2453/api/category/all"
-         
-        );
+        const res = await axios.get("http://localhost:2453/api/category/all");
         // console.log(res.data)
         setdanhMuc(res.data);
       } catch (error) {
@@ -99,7 +96,6 @@ function Home() {
     getDM();
   }, []);
 
-    
   useEffect(() => {
     const getDTNB = async () => {
       try {
@@ -147,10 +143,27 @@ function Home() {
     getPKNB();
   }, []);
 
+  const handleAddToCart = (id, price) => {
+    var d = new Date();
+    axios({
+      method: "post",
+      url: "http://localhost:2453/api/order/addcart",
+      data: {
+        orderate: d.getTime(),
+        totalprice: price,
+        quantity: "100",
+        status: "Hết hàng",
+        userId: 0,
+        orderId: id,
+      }
+    })
+    .then(res => console.log(res))
+  };
+
   return (
-    <div>
+    <div class="homee">
       {/* Header */}
-      
+
       <div className="Header_top">
         <div className="Header_top_all">
           <div className="Header_top_imgg">
@@ -159,6 +172,7 @@ function Home() {
               <BsPhone size={18} />{" "}
             </Link>
           </div>
+
 
           <div className="Header_top_bordercol"></div>
 
@@ -172,7 +186,6 @@ function Home() {
           <div className="Header_top_bordercol"></div>
 
           <div className="Header_top_search">
-
             <input
               placeholder="Search by username"
               enterButton
@@ -221,17 +234,13 @@ function Home() {
 
       {/* Heahder_ main */}
 
-  
       <div className="Header_main">
-      {danhMuc.map((post) => (
-      
         <Link className="Header_main_a" to="iphone">
           <BsPhone />
-          <span className="Header_main_text">{post.categoryname}</span>
+          <span className="Header_main_text">Điện Thoại</span>
         </Link>
-        ))}
-      
-        {/* <Link className="Header_main_a" to="Laptop">
+
+        <Link className="Header_main_a" to="Laptop">
           <BsLaptop />
           <span className="Header_main_text">LapTop</span>
         </Link>
@@ -271,9 +280,8 @@ function Home() {
 
         <a className="Header_main_a">
           <span className="Header_main_text">Trả Góp, Điện nước</span>
-        </a> */}
+        </a>
       </div>
-    
 
       <Routes>
         <Route>
@@ -285,8 +293,7 @@ function Home() {
           <Route path="Detail" element={<Detail />} />
           <Route path="Xiaomi" element={<Xiaomi />} />
           <Route path="Giamgia" element={<Giamgia />} />
-          
-          
+          <Route path="page2" element={<Page2 />} />
         </Route>
       </Routes>
 
@@ -295,6 +302,7 @@ function Home() {
       <div>
         <div>
           <div className="homebanner">
+            
             <div class="homebanner_slider">
               <div
                 id="carouselExampleIndicators"
@@ -444,7 +452,7 @@ function Home() {
         <div className="list">
           {DTNB.map((post) => (
             <div className="item">
-              <img src={post.imageurl} width="280" height="190" />
+              <Link to="Detail"> <img src={post.imageurl} width="280" height="190" /></Link> 
 
               <div className="item_name">
                 <span>{post.productname}</span>
@@ -461,6 +469,12 @@ function Home() {
                   <BsStar />
                   <BsStar />
                 </div>
+              </div>
+
+              <div className="cart">
+                <button onClick={() => handleAddToCart(post.id, post.price)}>
+                  ADD{" "}
+                </button>
               </div>
             </div>
           ))}
